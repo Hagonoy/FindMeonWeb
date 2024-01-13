@@ -1,0 +1,9 @@
+This website is powered by Bootstrap
+
+FindMe Blog website
+
+Technologies used
+HTML
+CSS
+JAVASCRIPT
+Bootstrap
