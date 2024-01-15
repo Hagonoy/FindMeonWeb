@@ -7,7 +7,7 @@ body{
   margin: 0;
   padding: auto;
   box-sizing: border-box;
-  /* border: solid 1px red; */
+  border: solid 1px red;
 }
 a {
   text-decoration: none;
@@ -96,16 +96,18 @@ input[type=checkbox] {
   user-select: none;
 }
 /* two columns flex */
-/* container */
+/* container  for my picture ang myface*/
 .responsive-two-column-grid {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
+  justify-items: center;
+  margin: 30px;
 }
 
 /* columns */
 .row-mybanner {
-margin: 100px;
+  margin: 30px;
 }
 .headertext{
   text-align: center;
@@ -338,16 +340,18 @@ footer {
 
 
 /* for mobile responsive */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (max-width: 1024px) {
   .responsive-two-column-grid {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    justify-items: center;
+    margin: 20px;
   }
   
   /* columns */
   .row-mybanner {
-  margin: 10px;
+  margin: auto;
   }
   .headertext{
     font-size: 20px;
