@@ -7,3 +7,20 @@ HTML
 CSS
 JAVASCRIPT
 Bootstrap
+
+<p class="artile-title-center">Patient Information Management System</p>
+        <div class="artile-publish-info">January 24, 2024</div>
+        <img class="article-image-center" src="../../assets/image/techstackicons/img-temp.jpg"/>
+        <p class="article-body-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ligula a libero ornare eleifend. Vivamus porta laoreet justo vel luctus. Aliquam consectetur augue vitae lorem molestie pellentesque. Etiam sit amet ante sit amet est aliquam aliquet. Curabitur ac pharetra orci. Proin sit amet mi ac ligula porta faucibus. Etiam vel felis quam. Integer at viverra odio. Nullam nec scelerisque lectus. Duis feugiat congue fermentum. Quisque at erat in orci ullamcorper tristique. Mauris in pellentesque libero. Cras eget commodo massa. Quisque malesuada est et sollicitudin dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque venenatis orci.</p>
+        <p class="article-body-info">Mauris ultricies ipsum nisi, nec tristique eros gravida elementum. Nam pellentesque tempor enim quis vulputate. Praesent nec blandit metus, id feugiat nulla. Vivamus aliquet augue sit amet varius viverra. Vestibulum dapibus egestas turpis, et ullamcorper turpis aliquet nec. Vivamus dapibus elit est, quis dignissim orci sagittis a. Mauris vehicula turpis augue, sed feugiat felis ornare et. Pellentesque porttitor augue vel diam aliquet, at mollis felis convallis. Vestibulum velit nulla, scelerisque sit amet porta id, feugiat ac nisl. Phasellus eget cursus magna. Sed gravida cursus erat, eu congue sapien hendrerit nec.</p>
+        <p class="article-body-info">Integer luctus gravida nibh eget sagittis. Aenean convallis varius semper. In sit amet nibh tempor, luctus felis in, bibendum leo. Mauris lobortis enim nec pellentesque sollicitudin. In quis eros tincidunt purus ultricies scelerisque. Aenean bibendum ultrices ante, vitae lobortis elit scelerisque eget. Phasellus diam justo, maximus et mollis non, placerat in quam. Quisque vel hendrerit sapien, eget suscipit ipsum. Maecenas vel neque nec augue dignissim finibus vitae vitae mauris. Vestibulum finibus sapien orci, et volutpat arcu feugiat et. Pellentesque a enim ut diam malesuada tempus accumsan vel magna. Curabitur quis mauris a ex tincidunt vestibulum sit amet scelerisque felis. Phasellus sed lacus in nibh congue ultricies tempor vitae lectus. Phasellus suscipit efficitur urna, interdum interdum leo. Praesent eleifend, nulla id volutpat auctor, tellus eros viverra turpis, ac fermentum arcu mauris vitae urna. Curabitur lacinia sem sit amet risus efficitur, condimentum sagittis sem ornare.</p>
+
+        .article-center-parent{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 70%;
+}

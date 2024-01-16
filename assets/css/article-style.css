@@ -1,0 +1,108 @@
+.article-center-parent{
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.article-center-child{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 70%;
+}
+.artile-title-center{
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    margin: 20px;
+}
+.artile-publish-info{
+    font-size: 0.9rem;
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+}
+.article-image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 30%;
+}
+.article-body-info{
+    font-size: 1rem;
+    /* font-family: 'Times New Roman', Times, serif; Fallback serif font */
+    color: #000000;
+    text-align: justify;
+    text-justify: newspaper;
+    padding: 20px;
+    line-height:20px;
+}
+.figure-center{
+    text-align: center;
+    font-size: 0.8rem;
+}
+.figure-image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 30%;
+}
+  @media only screen and (max-width: 768px) and (max-width: 1024px){
+    .article-center-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin: 0;
+    }
+    .article-center-child{
+        border: 1px solid green;
+        background-color: #ffffff;
+        border-radius: 15px;
+        width: 100%
+    }
+    .artile-title-center{
+        font-size: 1rem;
+        color: #000000;
+        text-align: center;
+        margin: 20px;
+    }
+    .artile-publish-info{
+        font-size: 0.8rem;
+        color: #000000;
+        text-align: center;
+        margin: 10px;
+    }
+    .article-image-center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    .article-body-info{
+        font-size: 1rem;
+        /* font-family: 'Times New Roman', Times, serif; Fallback serif font */
+        color: #000000;
+        text-align: justify;
+        text-justify: newspaper;
+        line-height:30px;
+    }
+    .figure-center{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .figure-image-center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 350px;
+    }
+  }
+
+  /* image carousel */
+  
