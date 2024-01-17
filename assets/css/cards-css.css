@@ -18,7 +18,7 @@
   }
   
   .btn-readmore {
-    text-transform: uppercase;
+    text-transform:none;
     display: block;
     width: 100%;
     cursor: pointer;

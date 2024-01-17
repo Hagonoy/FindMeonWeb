@@ -171,34 +171,33 @@ input[type=checkbox] {
 .techstackdiv{
   background-color: #ffffff;
   text-align: center;
-  padding: 31px;
+  padding: 25px;
 }
 .techstacktext{
   background-color: #ffffff;
   font-size: 30px;
+  padding: -10px;
   color: #000000;
 }
 /* flexbox for techstack image */
 .flex-con{
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content:space-evenly;
   flex-wrap: wrap;
   background-color: #ffffff;
-
 }
 .box-child{
   display: flex;
   justify-content: space-around;
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   height: 90px;
-  margin: 20px;
-
+  margin: 30px;
 }
 /* download resume button styles */
 .resumediv{
-  background-color: #ffffff;
-  text-align: right;
+  background-color: #cccccc;
+  text-align: left;
   padding: 31px;
 }
 .btnresume{
@@ -210,6 +209,14 @@ input[type=checkbox] {
   font-size: 15px;
   transition-duration: 0.4s;
   cursor: pointer;
+}
+.resume-dl-list{
+  padding: 10px;
+}
+.resume-li{
+  margin: 15px;
+  font-size: 13px;
+  color: #000000;
 }
 .btnresume:hover {
   background-color: #000000;
@@ -256,6 +263,16 @@ input[type=checkbox] {
 }
 .li-contacts{
   margin-top: 20px;
+}
+.li-contacts a.linked-li {
+  color: #1e9be1;
+  text-decoration: underline;
+}
+
+/* Change the color when the link is hovered */
+.li-contacts a.linked-li:hover {
+  color: #fff; /* Change this to the desired color */
+  text-decoration:underline
 }
 .letsconnect{
   margin-top: 30px;
@@ -461,7 +478,7 @@ footer {
     font-size: 25px;
     text-align: center;
     color: #000000;
-    padding: 20px;
+    padding: 10px;
   }
   .responsive {
     display: flex;
@@ -478,16 +495,15 @@ footer {
     background-color: #04AA6D; /* Green */
     border: solid 3px #36454F;
     color: white;
-    padding: 10px 20px;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 100%;
   }
   .resumediv{
-    background-color: #ffffff;
-    text-align:center;
+    background-color: #cccccc;
+    width: 100%;
+    text-align: center;
   }
   /* center and shrink cards */
   .cards-div{
