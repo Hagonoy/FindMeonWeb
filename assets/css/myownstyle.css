@@ -491,12 +491,17 @@ footer {
     height: 90px;
   }
   /* center dl resume button */
+  .resume-li{
+    margin: 15px;
+    font-size: 13px;
+    color: #000000;
+  }
   .btnresume{
     background-color: #04AA6D; /* Green */
     border: solid 3px #36454F;
     color: white;
     text-align: center;
-    font-size: 10px;
+    font-size: 0.875rem;
     transition-duration: 0.4s;
     cursor: pointer;
   }
