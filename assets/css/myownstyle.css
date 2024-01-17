@@ -1,3 +1,25 @@
+/* scrollbar style */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #36454F;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #04AA6D; 
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}
 body{
   background-color: #36454F;
   font-family: 'Roboto Mono', monospace;
@@ -377,6 +399,28 @@ footer {
 
 /* for mobile responsive */
 @media only screen and (max-width: 768px) and (max-width: 1024px) {
+  /* scrollbar style */
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #36454F; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #04AA6D; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}
   .responsive-two-column-grid {
     display:flex;
     flex-direction: column;
