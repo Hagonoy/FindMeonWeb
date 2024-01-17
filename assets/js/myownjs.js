@@ -18,9 +18,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-//show modal
-const favDialog = document.getElementById('favDialog');
-
-showNumber.addEventListener('click', () => {
-  favDialog.showModal();
-});

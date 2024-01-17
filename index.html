@@ -23,7 +23,6 @@
           window.location.href = 'https://hagonoy.github.io/FindMeonWeb/maintenance.html'; // Replace with your desired destination URL
       }, 1000); // Adjust the delay (3 seconds in this example)
   </script> -->
-  
   </head>
   <body>
     <!-- Header and navbar -->
@@ -109,7 +108,7 @@
             <ul class="cards" >
               <li class="cards_item">
                 <div class="card">
-                  <div class="card_image"><img src="assets/image/techstackicons/img-temp.jpg"></div>
+                  <div class="card_image"><img class="img-myprojects" src="assets/image/techstackicons/img-temp.jpg"></div>
                   <div class="card_content">
                     <p class="card_text">Patient Information Management System</p>
                     <a class="btn-readmore" href="pages/article/article-pis.html">Read more..</a>
@@ -118,16 +117,16 @@
               </li>
               <li class="cards_item">
                 <div class="card">
-                  <div class="card_image"><img src="assets/image/techstackicons/img-temp.jpg"></div>
+                  <div class="card_image"><img class="img-myprojects" src="assets/image/article-picture/businaph-main.JPG"></div>
                   <div class="card_content">
                     <p class="card_text">BusinaPH Mobile App</p>
-                    <button class="btn-readmore">Read more..</button>
+                    <a class="btn-readmore" href="pages/article/article-businaph.html">Read more..</a>
                   </div>
                 </div>
               </li>
               <li class="cards_item">
                 <div class="card">
-                  <div class="card_image"><img src="assets/image/techstackicons/img-temp.jpg"></div>
+                  <div class="card_image"><img class="img-myprojects" src="assets/image/article-picture/PegaAPI.JPG"></div>
                   <div class="card_content">
                     <p class="card_text">Pega API Integration</p>
                     <button class="btn-readmore">Read more..</button>
@@ -155,19 +154,21 @@
           <!-- message -->
             <div class="two-rows-child">
               <!-- forms here -->
-              <div class="container-message">
+              <div class="not-yet-ready">
+                <p class="not-ready-p">"This feature is not yet ready"</p>
+                <div class="container-message">
                 <form action="#home">
                   <label for="fname">Your Name:</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your Name"><br>
+                  <input type="text" id="fname" name="firstname" placeholder="Type Fullname" disabled><br>
                   <label for="lname">Email Address</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your Email Address"><br>
+                  <input type="text" id="lname" name="lastname" placeholder="example sample@gmail.com" disabled><br>
                   <label for="subject">Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" disabled></textarea><br>
                   <div class="message-div">
-                    <button class="message-btn">Submit</button>
+                    <button class="message-btn" disabled>Submit</button>
                   </div>
                 </form>
-              </div>
+              </div></div>
             </div>
           </div>
         </section>
