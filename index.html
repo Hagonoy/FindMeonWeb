@@ -49,7 +49,9 @@
         <section>
           <div class="responsive-two-column-grid">
             <div class="row-mybanner"><p class="headertext">I'm Rico Jr. A. Macabenlar, Junior Software Engineer based in Manila</p></div>
-            <div class="row-mybanner"><img src="assets/image/myface.png" class="myfaceimg" style='width:100%; border:"0";' alt="Null"></div>
+            <div class="row-mybanner">
+            <img src="assets/image/myface.png" class="myfaceimg" style='width:100%; border:"0";' alt="Null">
+            </div>
         </div>
         </section>
         <!-- About me section -->
@@ -84,15 +86,42 @@
             <p class="techstacktext">Tech Stack</p>
           </div>
           <div class="flex-con">
-            <div class="box-child"><img src="assets/image/techstackicons/imghtml.png" alt="HTML" class="techicons"></div>
-            <div class="box-child"><img src="assets/image/techstackicons/imgcss.png" alt="HTML" class="techicons"></div>
-            <div class="box-child"><img src="assets/image/techstackicons/imgjs.png" alt="HTML" class="techicons"></div>
-            <div class="box-child"><img src="assets/image/techstackicons/imgvb.png" alt="HTML" class="techicons"></div>
-            <div class="box-child"><img src="assets/image/techstackicons/imgvs.png" alt="HTML" class="techicons"></div>
-            <div class="box-child"><img src="assets/image/techstackicons/imgc.png" alt="HTML" class="techicons"></div>
-            <div class="box-child"><img src="assets/image/techstackicons/imgmysql.png" alt="HTML" class="techicons"></div>
-            <div class="box-child"><img src="assets/image/techstackicons/imgphp.png" alt="HTML" class="techicons"></div>
-            <div class="box-child"><img src="assets/image/techstackicons/imgapi.png" alt="HTML" class="techicons"></div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imghtml.png" alt="HTML" class="techicons">
+              <div class="text-none">HyperText Markup Language</div>
+            </div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imgcss.png" alt="HTML" class="techicons">
+              <div class="text-none">Cascading Style Sheets</div>
+            </div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imgjs.png" alt="HTML" class="techicons">
+              <div class="text-none">JavaScript</div>
+            </div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imgvb.png" alt="HTML" class="techicons">
+              <div class="text-none">Visual Basic</div>
+            </div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imgvs.png" alt="HTML" class="techicons">
+              <div class="text-none">Visual Studio</div>
+            </div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imgc.png" alt="HTML" class="techicons">
+              <div class="text-none">C Programming</div>
+            </div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imgmysql.png" alt="HTML" class="techicons">
+              <div class="text-none">MySQL</div>
+            </div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imgphp.png" alt="HTML" class="techicons">
+              <div class="text-none">Hypertext Preprocessor</div>
+            </div>
+            <div class="box-child">
+              <img src="assets/image/techstackicons/imgapi.png" alt="HTML" class="techicons">
+              <div class="text-none">Rest API</div>
+            </div>
           </div>
           <!-- <div class="resumediv">
             <a class="btnresume" href="external/downloadables/CV - Rico Jr A Macabenlar.pdf" download>Download Resume</a>
@@ -155,8 +184,8 @@
                 <ul class="resume-dl-list">
                   <li class="resume-li"><a class="btnresume" href="external/downloadables/CV - Rico Jr A Macabenlar.pdf" download><i class="fa-solid fa-download"></i> Download Resume</a></li>
                   <li class="resume-li">file size: 109kb</li>
+                  <li class="resume-li"><a class="viewnow" data-bs-toggle="modal" data-bs-target="#exampleModal">View Now</a></li>
                 </ul>
-                
           </div>
           </div>
           <!-- message -->
@@ -214,3 +243,19 @@
   <!-- maintenance page: activate it when needed updating or enhancement -->
 </body>
 </html>
+
+
+<!-- modal here -->
+<div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModal" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">My Resume</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <object data="external/downloadables/CV - Rico Jr A Macabenlar.pdf" type="application/pdf" width="100%" height="600px;"></object>
+      </div>
+    </div>
+  </div>
+</div>

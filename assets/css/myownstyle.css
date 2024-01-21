@@ -193,6 +193,18 @@ input[type=checkbox] {
   flex: 1 0 auto;
   height: 90px;
   margin: 30px;
+  transition: width 2s, height 2s;
+}
+.text-none{
+  display: none;
+}
+.box-child:hover{
+  width: 120px;
+  height: 120px;
+  .text-none{
+    display: flex;
+    flex-direction: row;
+  }
 }
 /* download resume button styles */
 .resumediv{
@@ -209,6 +221,20 @@ input[type=checkbox] {
   font-size: 15px;
   transition-duration: 0.4s;
   cursor: pointer;
+}
+.viewnow{
+  background-color: #E7D2CC; /* Green */
+  border: solid 3px #36454F;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.viewnow:hover{
+  background-color: #000000;
+  color: white;
 }
 .resume-dl-list{
   padding: 10px;
@@ -401,6 +427,32 @@ footer {
   color: #ffffff;
   margin: 10px;
 }
+/* modal */
+/* .modal{
+  
+} */
+.modal{
+  background-color: #36454F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -505,6 +557,14 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
   }
+  .viewnow{
+    display: none;
+  } 
+  /* object{
+    display: block;
+    width: 100%;
+    height: 600px;
+  } */
   .resumediv{
     background-color: #cccccc;
     width: 100%;
