@@ -1,18 +1,70 @@
-<!doctype html>
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #ffffff; background-color: #d6433b; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-color: #D85537;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
 
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>We apologize for any inconvenience, but my website is currently undergoing scheduled maintenance to enhance your experience. We appreciate your patience and understanding during this time. Please check back shortly, and we'll be back online as soon as possible.</p>
-        <p>&mdash; One man FindMeonWeb</p>
+        .maintenance-container {
+            max-width: 400px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .maintenance-image {
+            width: 100%;
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #000000;
+        }
+
+        p {
+            color: #000000;
+        }
+        a{
+          color: #000000;
+        }
+        a:hover{
+          color: #04AA6D;
+        }
+        li{
+          margin: 2px;
+        }
+    </style>
+    <title>Maintenance Page</title>
+</head>
+<body>
+
+    <div class="maintenance-container">
+        <img class="maintenance-image" src="assets/image/maintenance-img.png" alt="Maintenance Icon">
+        <h1>Under Maintenance</h1>
+        <p style="text-align: left;">We apologize for the inconvenience. Our website is currently undergoing scheduled maintenance. Please check back soon.</p>
+        <p style="text-align: left;">Follow and get in touch with me to the following platform:</p>
+
+        <ul style="text-align: left;">
+          <li><a href="mailto:real.rico.macabenlar@gmai.com?subject=Hello%20World&body=I%20have%20a%20question">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/rico-jr-a-macabenlar-271a24214/">LinkedIn</a></li>
+          <li><a href="https://github.com/Hagonoy">Github</a></li>
+          <li><a href="https://www.facebook.com/rico.macabenlar02000028029">Facebook</a></li>
+        </ul>
+        <p>&mdash; One man FindMeonWeb &mdash;</p>
     </div>
-</article>
+
+</body>
+</html>
