@@ -26,7 +26,7 @@ function topFunction() {
       document.querySelector("body").style.backgroundColor = "#04AA6D";
       document.querySelector("body").style.visibility = "hidden";
 
-      setTimeout(hide, 1000); // 2 seconds
+      setTimeout(hide, 3000); // 3 seconds
     },
 
     hide = function(){
