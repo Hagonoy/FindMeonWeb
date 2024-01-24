@@ -1,3 +1,24 @@
+/* announcement style */
+.announcement{
+  background-color: #ffffff;
+}
+.announcement-p {
+  font-size: 0.8rem;
+  color: #000000;
+  text-align: center;
+}
+.closebtn {
+  color: #000000;
+  font-weight: bold;
+  float: right;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+  }
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+  color: #04AA6D;
+  }
 /* scrollbar style */
 /* width */
 ::-webkit-scrollbar {
@@ -468,6 +489,15 @@ footer {
 
 /* for mobile responsive */
 @media only screen and (max-width: 768px) and (max-width: 1024px) {
+  /* announcement style */
+.announcement{
+  background-color: #ffffff;
+}
+.announcement-p {
+  font-size: 0.6rem;
+  color: #000000;
+  text-align: center;
+}
   /* scrollbar style */
 /* width */
 ::-webkit-scrollbar {
