@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
+    
     <style>
+        *{
+            /* border: 1px solid red; */
+        }
         body {
             font-family: 'Roboto Mono', monospace;
             background-color: #D85537;
@@ -26,8 +30,7 @@
 
         .maintenance-image {
             width: 100%;
-            max-width: 200px;
-            margin-bottom: 20px;
+            height: auto;
         }
 
         h1 {
@@ -46,13 +49,28 @@
         li{
           margin: 2px;
         }
+        .btnreload{
+        background-color: #04AA6D; /* Green */
+        border: solid 3px #36454F;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+        }
+        .btnreload:hover{
+            background-color: #000000;
+            color: #ffffff; 
+        }
     </style>
     <title>Maintenance Page</title>
 </head>
 <body>
 
     <div class="maintenance-container">
-        <img class="maintenance-image" src="assets/image/maintenance-img.png" alt="Maintenance Icon">
+        <img class="maintenance-image" src="assets/image/maintenance-gif.gif" alt="Maintenance Icon">
         <h1>Under Maintenance</h1>
         <p style="text-align: left;">We apologize for the inconvenience. Our website is currently undergoing scheduled maintenance. Please check back soon.</p>
         <p style="text-align: left;">Follow and get in touch with me to the following platform:</p>
@@ -63,6 +81,8 @@
           <li><a href="https://github.com/Hagonoy">Github</a></li>
           <li><a href="https://www.facebook.com/rico.macabenlar02000028029">Facebook</a></li>
         </ul>
+        <p>or</p>
+        <a class="btnreload" href = "index">Reload this page</a>
         <p>&mdash; One man FindMeonWeb &mdash;</p>
     </div>
 
