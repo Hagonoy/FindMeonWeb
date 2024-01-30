@@ -1,6 +1,8 @@
-/* *{
-    border: 1px solid red;  
-} */
+*{
+    /* border: 1px solid red;   */
+    -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .article-center-parent{
         margin: 50px;
         display: flex;
@@ -31,6 +33,41 @@
     height: 40%;
     width: 30%;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* img carousel */
+.carousel {
+    background: #fff;
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    height: 400px;
+    margin-right: 10px;
+    background: #fff;
+  }
+  
+  .carousel-cell-image {
+    display: block;
+    margin: 0 0 0 0;
+    max-height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+            transition: opacity 0.4s;
+  }
+  
+  /* fade in lazy loaded image */
+  .carousel-cell-image.flickity-lazyloaded,
+  .carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+  }
+  
+/* img carousel end here */
 .sub-header-title{
     font-size: 2rem;
     color: #000000;
@@ -60,17 +97,23 @@
 .flex-img-parent-col{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content:space-evenly;
+    align-items: center;
 }
-.flex-img-child{
+.flex-item{
+    justify-content: flex-start;
     display: flex;
-    justify-content: space-around;
-    flex: 1 0 auto;
+    padding-left: 20px;
 }
 .flex-img{
     height: 200px;
     width: 250px;
+}
+figcaption{
+    text-align: center;
+    font-size: 0.8rem;
 }
   @media only screen and (max-width: 768px) and (max-width: 1024px){
     .article-center-parent{
@@ -144,6 +187,32 @@
     margin: 5px;
     width: 200px;
 }
+/* img carousel */
+.carousel {
+    background: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .carousel-cell {
+    background: #fff;
+  }
+  
+  .carousel-cell-image {
+    text-align:center;
+    margin: 0 0 0 0;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+            transition: opacity 0.4s;
+  }
+  
+  /* fade in lazy loaded image */
+  .carousel-cell-image.flickity-lazyloaded,
+  .carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+  }
+  
+/* img carousel end here */
   }
 
   

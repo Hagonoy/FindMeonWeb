@@ -219,14 +219,6 @@ input[type=checkbox] {
 .text-none{
   display: none;
 }
-.box-child:hover{
-  width: 120px;
-  height: 120px;
-  .text-none{
-    display: flex;
-    flex-direction: row;
-  }
-}
 /* download resume button styles */
 .resumediv{
   background-color: #cccccc;
@@ -612,13 +604,6 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-  
-  }
-  .box-child{
-    display: flex;
-    justify-content: center;
-    height: 90px;
-    margin: 5px;
   
   }
   .footer-p{
