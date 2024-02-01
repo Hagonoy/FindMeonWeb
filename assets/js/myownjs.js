@@ -44,7 +44,7 @@ function topFunction() {
         var myDivs = document.getElementById("announcement")
         var p = document.getElementById("announcement-p")
         var closebtn = document.getElementById("sclosebtn")
-    fetch('https://122987c6-c1f8-41f4-bac4-82d0530ac971.mock.pstmn.io/announcement').then( response => response.json()).then(({announcement,announcementmessage}) =>{
+    fetch('https://api.mockfly.dev/mocks/29156950-a254-4a6d-9b32-f306ff88166b/announcement').then( response => response.json()).then(({announcement,announcementmessage}) =>{
       if(announcement){
         myDivs.style.display = "block";
         p.innerHTML = announcementmessage;

@@ -16,7 +16,7 @@
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
     <!-- site maintenance page -->
     <script>
-      fetch('https://7946550d-687e-483a-99e3-beed02dc1421.mock.pstmn.io/maintenance').then( response => response.json()).then(({maintenance}) =>{
+      fetch('https://api.mockfly.dev/mocks/29156950-a254-4a6d-9b32-f306ff88166b/maintenance').then( response => response.json()).then(({maintenance}) =>{
         if(maintenance){
           window.location.href = 'maintenance'; // Replace with your desired destination URL
         }
