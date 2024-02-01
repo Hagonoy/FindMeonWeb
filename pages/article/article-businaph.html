@@ -15,7 +15,7 @@
     <!-- GG ICONS -->
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
   </head>
-  <body>
+  <body onload="myFunction()">
     <!-- Header and navbar -->
     <nav class="navbar" id="home">
         <!-- LOGO -->
@@ -38,7 +38,7 @@
         <div class="article-center-child">
             <p class="artile-title-center">Busina PH</p>
         <div class="artile-publish-info">January 24, 2024</div>
-        
+        <img class="article-image-center" src="../../assets/image/article-picture/businaph-main.JPG"/>
         <p class="sub-header-title">Introduction</p>
         <p class="article-body-info">The Busina PH is a system that makes use of QR codes to collect fares uniformly for  public transit. The cooperatives can find the registration on the landing page, which is made  using React JS and saves their credentials in the database. The cooperatives will be using those  credentials upon logging in to the PEGA portal, which will serve as the portal for the operators  of the cooperative.</p>
         <p class="article-body-info">The mobile applications, on the other hand, are divided into two. The conductor mobile  application is used by the conductors, who manage the passengers that go in and out of the  vehicle. While the passenger application is used by public users, they will be using the mobile  app to purchase the tickets or QR codes that the conductor will scan, track their location during  the trip, view their transactions as well as their QR lists.</p>
@@ -47,48 +47,90 @@
    data-flickity='{ "lazyLoad": true }'>
   <div class="carousel-cell">
     <img class="carousel-cell-image"
-      data-flickity-lazyload="../../assets/image/article-picture/businaph/businaph-login.JPG" alt="businaph-login" />
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-01_ Login.png" alt="PS-01" />
   </div>
   <div class="carousel-cell">
     <img class="carousel-cell-image"
-      data-flickity-lazyload="../../assets/image/article-picture/businaph/businaph-dashboard.JPG" alt="businaph-dashboard" />
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-02.1_ Registration.png" alt="PS-02" />
   </div>
   <div class="carousel-cell">
     <img class="carousel-cell-image"
-      data-flickity-lazyload="../../assets/image/article-picture/businaph/businaph-landingpage.JPG" alt="businaph-landingpage" />
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-02.2_ Registration.png" alt="PS-02.2" />
   </div>
   <div class="carousel-cell">
     <img class="carousel-cell-image"
-      data-flickity-lazyload="../../assets/image/article-picture/businaph/businaph-qrcodestatus.JPG" alt="businaph-qrcodestatus" />
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-02.3_ Registration-Success.png" alt="businaph-login" />
   </div>
   <div class="carousel-cell">
     <img class="carousel-cell-image"
-      data-flickity-lazyload="../../assets/image/article-picture/businaph/businaph-swimlane-all.JPG" alt="businaph-swimlane-all" />
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-03.1_ OTP Verification.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-03.2_ Set new password.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-03.3_ Update-Success-Password.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-04.1_ GCASH API.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-04.2_ Success-Payment.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-04.3_ Updated Wallet balance.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-04_ Homepage.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-06.1_ PAR_ Scan QR.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-06.2_ PAR_ select route.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-06_ pick a route.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-07_ QR List Stats.png" alt="businaph-login" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="../../assets/image/figma-img/BusinaPH-Mobile/PS-09_ Trips History.png" alt="businaph-login" />
   </div>
 </div>
+<div><p id="test">sss</p></div>
         <!-- Carousel end here -->
-        <p class="sub-header-title">The SwimLanes</p>
+        <!-- <p class="sub-header-title">The SwimLanes</p>
         <p class="article-body-info">Swimlanes are the visual organizational tool used in various context particularly in process mapping,project management and business analysis. This represents the process and it's functional areas responsibilities or participants involved in a process or project.</p>
         <p class="article-body-info">In BusinaPH me and my team develop Swimlanes for different users in the system to insure that every process in the system is clarify and visualize by assigning different swimlanes for different users or department, here in BusinaPH we create different Swimlanes to fulfill the needs in visualizing those process and it's functionalities.</p>
         <div class="flex-img-parent-col">
           <div class="flex-item">
             <figure>
               <img class="flex-img" src="../../assets/image/article-picture/businaph/businaph-swimlane-coop.JPG" />
-              <!--<div style="clear: both;"></div>-->
               <figcaption>Cooperative Swimlanes</figcaption>
             </figure>
           </div>
           <div class="flex-item">
             <figure>
               <img class="flex-img" src="../../assets/image/article-picture/businaph/businaph-swimlane-conductor.JPG" />
-              <!--<div style="clear: both;"></div>-->
               <figcaption>Conductor Swimlanes</figcaption>
             </figure>
           </div>
           <div class="flex-item">
             <figure>
               <img class="flex-img" src="../../assets/image/article-picture/businaph/businaph-swimlane-passenger.JPG" />
-              <!--<div style="clear: both;"></div>-->
               <figcaption>Passenger SwimLanes</figcaption>
             </figure>
           </div>
@@ -98,7 +140,7 @@
         <p class="article-body-info">Before the development begins we create a prototype using figma to illustrate the design and to make sure that all the requirments are aligned to the technical terms of the application.</p>
         <img class="article-image-center" src="../../assets/image/article-picture/businaph/businaph-figma.JPG"/>
         <figcaption>BusinaPh Figma Design</figcaption>
-        <p class="article-body-info">By doing this we make sure that all features and modules are inlcuded during planning and prototyping, it helps the team to collabrate.</p>
+        <p class="article-body-info">By doing this we make sure that all features and modules are inlcuded during planning and prototyping, it helps the team to collabrate.</p> -->
       </div> <!-- article-center-child -->
        </div> <!-- article-center-parent -->
        <footer>
@@ -124,6 +166,12 @@
   <script src="https://kit.fontawesome.com/c665c3ad99.js" crossorigin="anonymous"></script>
   <!-- flickity js -->
   <script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js"></script>
+  <script>
+    function myFunction() {
+      var test = document.getElementById("test")
+      test.innerHTML = "<br>"
+    }
+    </script>
 </body>
 </html>
 

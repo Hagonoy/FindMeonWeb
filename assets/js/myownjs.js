@@ -22,6 +22,7 @@ function topFunction() {
 (function(){
   var myDiv = document.getElementById("loader")
   var closebtn = document.getElementById("sclosebtn")
+  var test = document.getElementById("test")
     show = function(){
       myDiv.style.display = "visible";
       document.querySelector("body").style.backgroundColor = "#04AA6D";
@@ -34,6 +35,7 @@ function topFunction() {
       myDiv.style.display = "none";
       document.querySelector("body").style.visibility = "visible";
       document.querySelector("body").style.backgroundColor = "#36454F";
+      test.innerHTML = "";
       // closebtn.style.display = "none";
     };
 
