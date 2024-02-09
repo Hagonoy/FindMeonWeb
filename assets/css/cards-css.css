@@ -16,6 +16,21 @@
     object-fit: fill;
     vertical-align: middle;
   }
+  /* other projects */
+  .other-projects{
+    text-align: right;
+    margin: 16px;
+  }
+  .more-button{
+    text-transform:none;
+    cursor: pointer;
+    background-color: #04AA6D; /* Green */
+    border: solid 3px #ffffff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    transition-duration: 0.4s;
+  }
   
   .btn-readmore {
     text-transform:none;
@@ -32,6 +47,10 @@
   }
   
   .btn-readmore:hover {
+    background-color: #000000;
+    color: white;
+  }
+  .more-button:hover {
     background-color: #000000;
     color: white;
   }

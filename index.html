@@ -15,17 +15,16 @@
     <!-- GG ICONS -->
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
     <!-- site maintenance page -->
-    <script>
+    <!-- <script>
       fetch('https://api.mockfly.dev/mocks/29156950-a254-4a6d-9b32-f306ff88166b/maintenance').then( response => response.json()).then(({maintenance}) =>{
         if(maintenance){
           window.location.href = 'maintenance'; // Replace with your desired destination URL
         }
       })
-  </script>
+  </script> -->
   </head>
   <body>
-    <!-- loader here -->
-    <div id="loader" class="center">
+    <div id="loader">
     </div>
     <!-- Header and navbar -->
     <nav class="navbar" id="home">
@@ -45,7 +44,7 @@
           </div>
         </ul>
       </nav>
-      <div class="announcement" id="announcement"><span class="closebtn" onclick="annclose()" id="sclosebtn">close</span><p class="announcement-p" id="announcement-p"></p></div>
+      <div class="announcement" id="announcement"><span class="closebtn" onclick="annclose()" id="sclosebtn">Close</span><p class="announcement-p" id="announcement-p"></p></div>
       <main>
         <!-- header banner -->
         <section>
@@ -84,9 +83,9 @@
           </div>
         </section>
         <section>
-          <div class="techstackdiv">
+          <!-- <div class="techstackdiv">
             <p class="techstacktext">Tech Stack</p>
-          </div>
+          </div> -->
           <div class="flex-con">
             <div class="box-child">
               <img src="assets/image/techstackicons/imghtml.png" alt="HTML" class="techicons">
@@ -105,12 +104,12 @@
               <div class="text-none">Visual Basic</div>
             </div>
             <div class="box-child">
-              <img src="assets/image/techstackicons/imgvs.png" alt="HTML" class="techicons">
-              <div class="text-none">Visual Studio</div>
+              <img src="assets/image/techstackicons/imgpega.PNG" alt="HTML" class="techicons">
+              <div class="text-none">Pega</div>
             </div>
             <div class="box-child">
-              <img src="assets/image/techstackicons/imgc.png" alt="HTML" class="techicons">
-              <div class="text-none">C Programming</div>
+              <img src="assets/image/techstackicons/imgvs.png" alt="HTML" class="techicons">
+              <div class="text-none">Visual Studio</div>
             </div>
             <div class="box-child">
               <img src="assets/image/techstackicons/imgmysql.png" alt="HTML" class="techicons">
@@ -143,7 +142,7 @@
                   <div class="card_image"><img class="img-myprojects" src="assets/image/techstackicons/img-temp.jpg"></div>
                   <div class="card_content">
                     <p class="card_text">Patient Information Management System</p>
-                    <a class="btn-readmore" href="#notyetready">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                    <a class="btn-readmore" href="pages/article/article-pis">Read more <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </li>
@@ -166,13 +165,16 @@
                 </div>
               </li>
             </ul>
+            <div class="other-projects" style="display: none;">
+              <a class="more-button" href="#notyetready">Mini Projects(soon)</a>
+            </div>
           </div>
         </section>
         <!-- contact me -->
         <section>
-          <div class="myprojects" id="contact">
-            <p class="p-30px">Contact Me</p>
-            <p class="p-20px">"Let's Connect"</p>
+          <div class="contact" id="contact">
+            <p class="p-30px" style="color: black;">Contact Me</p>
+            <p class="p-20px" style="color: black;">"Let's Connect"</p>
           </div>
           <div  class="flex-two-rows-parent">
             <div class="two-rows-child">

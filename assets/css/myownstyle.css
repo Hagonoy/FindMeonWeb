@@ -22,13 +22,13 @@
 /* scrollbar style */
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px #36454F;
-  border-radius: 10px;
+  border-radius: 1px;
 }
  
 /* Handle */
@@ -39,7 +39,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #000000; 
+  background: #ffffff; 
 }
 body{
   background-color: #36454F;
@@ -267,6 +267,12 @@ input[type=checkbox] {
   background-color: #36454F;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.contact{
+  padding: 10px;
+  background-color: #cccccc;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
 .p-30px{
   color: #ffffff;
   text-align: center;
@@ -490,6 +496,16 @@ footer {
   color: #000000;
   text-align: center;
 }
+.closebtn {
+  color: #000000;
+  font-weight: bold;
+  float:none;
+  text-align: right;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 10px;
+  }
   /* scrollbar style */
 /* width */
 ::-webkit-scrollbar {
