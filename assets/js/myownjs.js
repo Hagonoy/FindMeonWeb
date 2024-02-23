@@ -18,21 +18,22 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-// show loading screen
+//show loading screen
 (function(){
-  var myDiv = document.getElementById("loader")
+  var myDiv = document.getElementById("background")
   var closebtn = document.getElementById("sclosebtn")
   var test = document.getElementById("test")
     show = function(){
       myDiv.style.display = "visible";
+      myDiv.style.backgroundColor = "#04AA6D"
       document.querySelector("body").style.backgroundColor = "#04AA6D";
       document.querySelector("body").style.visibility = "hidden";
-
+      // $("body").fadeOut();
       setTimeout(hide, 3000); // 3 seconds
     },
 
     hide = function(){
-      myDiv.style.display = "none";
+      //myDiv.style.display = "none";
       document.querySelector("body").style.visibility = "visible";
       document.querySelector("body").style.backgroundColor = "#36454F";
       test.innerHTML = "";
@@ -61,7 +62,5 @@ function topFunction() {
 
 function annclose(){
   var announcementdiv = document.getElementById("announcement");
-  announcementdiv.style.display = "none";
+  $("#announcement").fadeOut();
 }
-
-// push notification

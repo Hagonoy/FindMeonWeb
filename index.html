@@ -8,7 +8,6 @@
     
     <link rel="stylesheet" href="assets/css/myownstyle.css">
     <link rel="stylesheet" href="assets/css/cards-css.css">
-    <link rel="stylesheet" href="assets/css/loader.css">
     <!-- Google Fonts API -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,9 +22,8 @@
       })
   </script>
   </head>
+  <div id="background"></div>
   <body>
-    <div id="loader">
-    </div>
     <!-- Header and navbar -->
     <nav class="navbar" id="home">
         <!-- LOGO -->
@@ -33,10 +31,10 @@
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
           <!-- USING CHECKBOX HACK -->
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <input type="checkbox" id="checkbox_toggle"/>
+          <label for="checkbox_toggle" class="hamburger" id="hamburger_click">&#9776;</label>
           <!-- NAVIGATION MENUS -->
-          <div class="menu">
+          <div class="menu" id="menu-fade">
             <li><a href="#home">Home</a></li>
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#myprojects">Projects</a></li>
