@@ -36,7 +36,7 @@ function topFunction() {
       //myDiv.style.display = "none";
       document.querySelector("body").style.visibility = "visible";
       document.querySelector("body").style.backgroundColor = "#36454F";
-      test.innerHTML = "";
+      //test.innerHTML = "";
       // closebtn.style.display = "none";
     };
 
